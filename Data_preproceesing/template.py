@@ -28,7 +28,7 @@ X.iloc[:, 0] = labelencoder_X.fit_transform(X.iloc[:, 0])
 onehotencoder = OneHotEncoder(categorical_features= [0])
 X = onehotencoder.fit_transform(X).toarray()
 labelencoder_y = LabelEncoder()
-y = labelencoder_y.fit_transform(y)
+Y= labelencoder_y.fit_transform(Y)
 # Splitting The Dataset
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.2,random_state=0)

@@ -11,7 +11,7 @@
 An employee joining a new company tell that he was a 6.5 level emplyee in his former company and and had a salary of 160K.The HR however is not conviced and decided to check whether the person is honest or not.
 
 ## Solution
-Salary of employees bases on their levels is predicted by both linear regression and polynomial regression <br/>
+Salary of employees based on their levels is predicted by both linear regression and polynomial regression <br/>
 
 ## Result
 
@@ -23,3 +23,4 @@ By Linear regression model
 By Polynomial Regression
 <img src="./2.png"></br>
 
+Since the model predicts the salary to be 158862.45 ,means employee was honest.

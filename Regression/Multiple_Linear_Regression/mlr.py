@@ -69,3 +69,7 @@ regressor_OLS.summary()
 
 # p value for all is less than sl so finish
 
+# automatic backward eminationation using a loop instead
+
+   
+    

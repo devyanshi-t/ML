@@ -49,3 +49,10 @@ plt.show()
 
 # X_grid=np.arange(start=1, stop=10,step=0.1)
 # X_grid=X_grid.reshape(len(X_grid),1) and them plot for x_grid
+
+# Predicting the salry of the employee using linear regression
+linear_reg.predict([[6.5]]) # predicts to 330378.78
+
+# Predicting the salry of the employee using polynomial regression
+
+linear_reg2.predict(pr.fit_transform([[6.5]])) # predicts 158862.45

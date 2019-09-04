@@ -21,9 +21,22 @@ dtr.fit(X,y)
 ypred=dtr.predict([[6.5]]) # predicts 15000
 
 # visulising using a graph using a higher resolutioin
+X_grid=np.arange(min(X),max(X),0.01)
+X_grid=X_grid.reshape(len(X_grid),1)
 plt.scatter(X,y,color='red')
 plt.plot(X,dtr.predict(X),color='blue')
 plt.title('Truth or False')
 plt.xlabel('Position held')
 plt.ylabel('Salary')
 plt.show()
+
+from sklearn.externals.six import StringIO  
+from IPython.display import Image  
+from sklearn.tree import export_graphviz
+import pydotplus
+dot_data = StringIO()
+export_graphviz(dtr, out_file=dot_data,  
+                filled=True, rounded=True,
+                special_characters=True)
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
+Image(graph.create_png())

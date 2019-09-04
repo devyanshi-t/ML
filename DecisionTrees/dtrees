@@ -6,3 +6,19 @@ Created on Thu Aug 29 16:29:14 2019
 @author: devyanshitiwari
 """
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+dataset=pd.read_csv('Position_Salaries.csv')
+X=dataset.iloc[:,1:2]
+y=dataset.iloc[:,2]
+
+# creating the regressor
+from sklearn.tree import DecisionTreeRegressor
+dtr=DecisionTreeRegressor(random_state=0)
+dtr.fit(X,y)
+ypred=dtr.predict([[6.5]]) # predicts 15000
+
+# visulising
+

@@ -7,7 +7,7 @@ In decision analysis, a decision tree can be used to visually and explicitly rep
 An employee joining a new company tell that he was a 6.5 level emplyee in his former company and and had a salary of 160K.The HR however is not conviced and decided to check whether the person is honest or not.
 
 ## Solution
-Salary of employees based on their levels is predicted by both linear regression and polynomial regression <br/>
+Salary of employees based on their levels is predicted by  the decision tree<br/>
 
 ## Result
 

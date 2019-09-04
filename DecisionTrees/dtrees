@@ -20,5 +20,10 @@ dtr=DecisionTreeRegressor(random_state=0)
 dtr.fit(X,y)
 ypred=dtr.predict([[6.5]]) # predicts 15000
 
-# visulising
-
+# visulising using a graph using a higher resolutioin
+plt.scatter(X,y,color='red')
+plt.plot(X,dtr.predict(X),color='blue')
+plt.title('Truth or False')
+plt.xlabel('Position held')
+plt.ylabel('Salary')
+plt.show()

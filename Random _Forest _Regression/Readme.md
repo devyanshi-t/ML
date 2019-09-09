@@ -20,6 +20,6 @@ Salary of employees based on their levels is predicted by  the  random forest re
 <img src="./1.png"></br>
 
 
-Since the model predicts the salary to be  160333means employee was honest.
+Since the model predicts the salary to be  160333 means employee was honest.
 
 

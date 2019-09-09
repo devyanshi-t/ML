@@ -12,7 +12,7 @@ The basic idea behind this is to combine multiple decision trees in determining 
 An employee joining a new company tell that he was a 6.5 level emplyee in his former company and and had a salary of 160K.The HR however is not conviced and decided to check whether the person is honest or not.
 
 ## Solution
-Salary of employees based on their levels is predicted by  the decision tree<br/>
+Salary of employees based on their levels is predicted by  the  random forest regrerssion <br/>
 
 ## Result
 
@@ -20,6 +20,6 @@ Salary of employees based on their levels is predicted by  the decision tree<br/
 <img src="./1.png"></br>
 
 
-Since the model predicts the salary to be 15000 means employee was  not honest.
+Since the model predicts the salary to be  160333means employee was honest.
 
 

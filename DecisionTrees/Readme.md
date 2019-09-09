@@ -15,5 +15,4 @@ Salary of employees based on their levels is predicted by  the decision tree<br/
 <img src="./1.png"></br>
 
 
-Since the model predicts the salary to be 15000 means employee was  not honest.
 
